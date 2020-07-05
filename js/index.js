@@ -20,7 +20,7 @@ function showText(){
 	var i = 0;
 	var txt = ' I am a web-developer, competetive coder and  movie enthusiast'; 
 	var speed = 50;
-	setTimeout(typeWriter,5000);
+	setTimeout(typeWriter,10000);
 };
 
 
