@@ -16,11 +16,11 @@ function showText(){
 		document.getElementsByTagName("body")[0].style.backgroundImage = "linear-gradient(to bottom right, rgba(0, 24, 66), rgba(2, 39, 105),rgba(4, 66, 179),rgba(81, 115, 176))";
 	}
 
-	setTimeout(getloader,2000);
+	setTimeout(getloader,8000);
 	var i = 0;
 	var txt = ' I am a web-developer, competetive coder and  movie enthusiast'; 
 	var speed = 50;
-	setTimeout(typeWriter,2000);
+	setTimeout(typeWriter,5000);
 };
 
 
