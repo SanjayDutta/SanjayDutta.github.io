@@ -41,7 +41,7 @@
          height: 95%;
          background-size: cover;
          background-position:right center;
-         background-image: linear-gradient(45deg, rgba(3, 90, 166) 30%,rgba(64, 186, 213) 45%,transparent 45%),linear-gradient(135deg,rgba(64, 186, 213) 45% ,rgba(3, 90, 166) 30%,transparent 45%),url("../images/myImage8.png");
+         background-image: linear-gradient(45deg, rgba(3, 90, 166) 30%,rgba(64, 186, 213) 45%,transparent 45%),linear-gradient(135deg,rgba(64, 186, 213) 45% ,rgba(3, 90, 166) 30%,transparent 45%),url("../images/edit1.png");
          text-align: left ;
          box-shadow: 10px 10px #010814;
      }
