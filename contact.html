@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/32cbc46049.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Contact Me</title>
+  </head>
+  <body>
+    <header>
+      <div class="menu-btn">
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+        <div class="btn-line"></div>
+      </div>
+
+      <nav class="menu">
+        <div class="menu-branding">
+          <div class="portrait"></div>
+        </div>
+        <ul class="menu-nav">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link">
+              HOME
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link">
+              About Me
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="work.html" class="nav-link">
+              Work
+            </a>
+          </li>
+          <li class="nav-item current">
+            <a href="contact.html" class="nav-link">
+              How to reach me
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="contact">
+      <h1 class="lg-heading">Contact <span class="text-secondary">Me</span></h1>
+      <h2 class="sm-heading">
+        Feel free to reach out to me
+      </h2>
+      <div class="boxes">
+        <form
+          action="https://send.pageclip.co/5YzwRGDivzl6G4KEU3LTRKhOt96fIyAr/contact-me"
+          class="pageclip-form"
+          method="post"
+        >
+          <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+
+          <!-- It looks like you are creating a contact form. These email and subject fields are special -->
+          <!-- See https://pageclip.co/docs#special-fields for more info -->
+
+          <div>
+            <span class="text-secondary">
+              Name:&nbsp;&nbsp;&nbsp;&nbsp;
+              <input
+                class="form-control form-control-lg"
+                type="text"
+                name="name"
+                placeholder="John Doe"
+              />
+            </span>
+          </div>
+
+          <div>
+            <span class="text-secondary">
+              Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <input
+                class="form-control form-control-lg"
+                type="email"
+                name="email"
+                placeholder="johndoe@example.com"
+              />
+            </span>
+          </div>
+
+          <div>
+            <span class="text-secondary">
+              Message:
+              <input
+                class="form-control form-control-lg"
+                type="text"
+                name="subject"
+                placeholder="Ask anything"
+              />
+            </span>
+          </div>
+
+          <center>
+            <input type="submit" class="pageclip-form__submit btn-light" />
+          </center>
+        </form>
+      </div>
+    </main>
+
+    <footer id="main-footer">
+      Copyright &copy; 2020
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
