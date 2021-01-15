@@ -24,7 +24,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  visibility: hidden; }
+  visibility: hidden;
+  backdrop-filter: blur(10px); }
   .menu.show {
     visibility: visible; }
   .menu-branding, .menu-nav {
@@ -39,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: rgba(8, 11, 15, 0.9);
+    background: rgba(33, 34, 51, 0.9);
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: rgba(16, 24, 32, 0.9);
+    background: rgba(43, 45, 66, 0.9);
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -99,7 +100,7 @@
   font-style: normal; }
 
 body {
-  background-color: #101820ff;
+  background-color: #2b2d42;
   color: #fff;
   height: 100%;
   margin: 0;
@@ -116,7 +117,7 @@ body {
       right: 0;
       width: 100%;
       height: 100%;
-      background: rgba(16, 24, 32, 0.3);
+      background: rgba(43, 45, 66, 0.3);
       z-index: -1; }
 
 h1,
@@ -181,7 +182,7 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #192531;
+    background: #353851;
     padding: 0.5rem;
     border-bottom: #f2aa4cff 5px solid; }
 
@@ -230,13 +231,13 @@ main {
   color: #fff; }
 
 .btn-light {
-  background: #7598ba;
+  background: #a7a9c5;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: black;
+  background: #171823;
   color: #fff;
   height: 60px; }
 
