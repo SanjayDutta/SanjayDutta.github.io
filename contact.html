@@ -78,12 +78,13 @@
       <h2 class="sm-heading">
         Feel free to reach out to me
       </h2>
-      <div class="boxes">
-        <form
-          action="https://send.pageclip.co/5YzwRGDivzl6G4KEU3LTRKhOt96fIyAr/contact-me"
-          class="pageclip-form"
+      <div class="boxes " style="margin-left: 20%;margin-right: 20%;">       
+        <form 
+          action="https://send.pageclip.co/5YzwRGDivzl6G4KEU3LTRKhOt96fIyAr" 
+          class="pageclip-form work-box" 
           method="post"
-        >
+          style="padding: 30px;"
+          >
           <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
 
           <!-- It looks like you are creating a contact form. These email and subject fields are special -->
@@ -93,10 +94,11 @@
             <span class="text-secondary">
               Name:&nbsp;&nbsp;&nbsp;&nbsp;
               <input
-                class="form-control form-control-lg"
+                class="form-control form-control-lg "
                 type="text"
                 name="name"
                 placeholder="John Doe"
+                style="border-radius: 20px;"
               />
             </span>
           </div>
@@ -109,6 +111,7 @@
                 type="email"
                 name="email"
                 placeholder="johndoe@example.com"
+                style="border-radius: 20px;"
               />
             </span>
           </div>
@@ -121,22 +124,44 @@
                 type="text"
                 name="subject"
                 placeholder="Ask anything"
+                style="border-radius: 20px;"
               />
             </span>
-          </div>
 
+           
+          </div>
           <center>
-            <input type="submit" class="pageclip-form__submit btn-light" />
+          <input type="submit" class="pageclip-form__submit btn-light button-animation" style="border-radius: 20px; " />
+          
+
           </center>
         </form>
       </div>
     </main>
 
     <footer id="main-footer">
-      Copyright &copy; 2020
+      Copyright &copy; 2026
     </footer>
 
     <script src="js/main.js"></script>
     <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
   </body>
+  <style>
+    .button-animation {    
+      width: 60%;  
+      transition: all 0.5s ease-out;
+      margin-left: 100%;
+      background-image: linear-gradient(to right, rgb(117, 115, 112), rgb(241, 240, 237));
+    }
+
+    .button-animation:hover {
+      transform: scale(1.05);
+      
+    }
+    /*on click animation*/
+    .button-animation:active {
+      background-image: linear-gradient(to right, rgb(241, 240, 237),rgb(117, 115, 112));
+    }
+
+  </style>
 </html>
